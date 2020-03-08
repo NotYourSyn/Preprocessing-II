@@ -168,9 +168,22 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px dashed #C0C0C0;
+}
+nav a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 2.5%;
+  color: #212529;
+}
 .footer {
   width: 100%;
-  border-top: 2px dashed silver;
+  border-top: 2px dashed #C0C0C0;
   background: #FFEBCD;
 }
 .footer p {
