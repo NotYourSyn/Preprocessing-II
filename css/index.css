@@ -136,6 +136,12 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
 }
+@media (max-width: 800px) {
+  html,
+  body {
+    margin: 1%;
+  }
+}
 h1,
 h2,
 h3,
@@ -145,6 +151,7 @@ h5 {
 }
 h1 {
   font-size: 4rem;
+  padding-top: 2%;
 }
 h2 {
   font-size: 3.2rem;
